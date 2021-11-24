@@ -1,0 +1,117 @@
+/*======================================================
+#6.0 volunteer-page
+========================================================*/
+.volunteer-area.v2 {
+  background: #f8f8f8;
+}
+
+.volunter-img img {
+  width: 100%;
+  min-height: 475px;
+  object-fit: cover;
+}
+
+.volunteer-contact-form form input,
+.volunteer-contact-form form select,
+.volunteer-contact-form form label,
+.volunteer-contact-form form textarea {
+  border: none;
+  border: 1px solid #262525;
+  padding-left: 15px;
+  height: 45px;
+  border-radius: 0;
+  background: #262525;
+  color: #555;
+}
+
+.volunteer-contact-form form textarea {
+  height: 120px;
+}
+.volunteer-contact-form form input:focus,
+.volunteer-contact-form form textarea:focus{
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #262525;
+  color: #898888;
+}
+
+.volunteer-contact-form form label {
+  line-height: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+}
+
+.volunteer-contact-form .form-group-in input {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.volunteer-contact-form .form-group-in {
+  position: relative;
+}
+
+.volunteer-contact-form .form-group-in i {
+  position: absolute;
+  right: 30px;
+  top: 13px;
+  font-size: 20px;
+}
+
+.volunteer-contact-form .form-group {
+  margin-bottom: 30px;
+}
+
+.volunteer-contact-form {
+  padding: 50px 40px;
+  background: #202120;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+.volunteer-contact-form h2 {
+  margin-top: 0;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.volunteer-contact-form .theme-btn {
+  padding-right: 27px;
+}
+
+
+@media(max-width: 767px) {
+  .volunteer-contact-form {
+      margin-top: 0px;
+      padding: 14px 16px;
+  }
+
+  .volunteer-contact-form h2 {
+      font-size: 23px;
+  }
+
+  .volunter-img img {
+      min-height: 100%;
+  }
+}
+
+.volunteer-contact-form .submit-area {
+  text-align: center;
+}
+
+.team-section.v2{
+  background: #101010;
+}
+.volunteer-area {
+  background: #1e1e1e;
+}
+.team-section.v2 .details {
+  background-color: #1e1e1e;
+}
+.team-section.v2 .img-holder {
+  border-bottom: 10px solid #101010;
+}

@@ -1,0 +1,31 @@
+
+.gallery-section.s2 .gallery-img{
+  overflow:hidden;
+  width: 100%;
+}
+.gallery-section.s2 .gallery-img .thumbnail img{
+  width: 100%;
+  transform: scale(1);
+  cursor: pointer;
+  transition: all .3s;
+}
+.gallery-section.s2 .gallery-img .thumbnail:hover img{
+  transform: scale(1.2);
+}
+
+.image-box .close-btn{
+  cursor: pointer;
+}
+
+.gallery-section.s2 .col{
+  padding: 0;
+}
+
+
+.react-fancybox .box{
+  z-index: 9999;
+}
+
+.news-letter-section.v2{
+  background: #2a2a2a;
+}

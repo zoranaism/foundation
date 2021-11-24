@@ -1,0 +1,168 @@
+/*--------------------------------------------------------------
+0.7 gallery-section
+--------------------------------------------------------------*/
+.gallery-section {
+  padding-bottom: 70px;
+  position: relative;
+  background: #2a2a2a;
+  padding-bottom: 160px;
+}
+
+@media (max-width: 991px) {
+  .gallery-section {
+    padding-bottom: 83px;
+  }
+}
+
+@media (max-width: 767px) {
+  .gallery-section {
+    padding-bottom: 73px;
+  }
+}
+
+.gallery-section .gallery-filters {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 767px) {
+  .gallery-section .gallery-filters {
+    margin-bottom: 30px;
+  }
+}
+
+.gallery-section .gallery-filters ul {
+  display: inline-block;
+  overflow: hidden;
+  list-style: none;
+}
+
+.gallery-section .gallery-filters ul li {
+  display: inline-block;
+}
+
+.gallery-section .gallery-filters ul > li + li {
+  margin-left: 15px;
+}
+
+.gallery-section .gallery-filters ul li a {
+    font-weight: 500;
+    color: #ddd;
+    display: block;
+    text-transform: capitalize;
+}
+.gallery-section .gallery-filters ul .current {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .gallery-section .gallery-filters ul li a {
+    font-size: 15px;
+    font-size: 1rem;
+  }
+}
+
+.gallery-section .grid{
+  position: relative;
+}
+.gallery-section .grid img{
+  width: 100%;
+}
+.gallery-section .grid:before {
+    position: absolute;
+    content: "";
+    left: 30px;
+    right: 30px;
+    top: 15px;
+    bottom: 15px;
+    background: rgba(255,255,255,.5);
+    transition: all .3s;
+    z-index: 9;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+}
+.gallery-section .grid:hover:before {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.gallery-section .item{
+  position: relative;
+  margin-bottom: 30px;
+  transition: all .3s;
+  overflow: hidden;
+}
+.icon {
+    position: absolute;
+    top:43%;
+    left: 0;
+    bottom: auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 999;
+    transform: scale(0);
+    transform: all .9s;
+}
+.gallery-section .grid:hover .icon{
+      transform: scale(1);
+}
+.icon i{
+  font-size: 30px;
+  color:#000;
+  font-weight: 700;
+}
+
+
+/* masonary for portfolio section */
+.payra-masonary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .payra-masonary .grid {
+    transition: .4s;
+    overflow: hidden;
+    transform: scale(0);
+    flex: 0;
+    max-width: 0;
+    position: relative;
+    width: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+  .payra-masonary .grid .view-icon {
+    display: inline-block;
+    font-size: 30px;
+    color: #000;
+  }
+  
+  .payra-masonary .grid.active, .payra-masonary .grid.open {
+    transform: scale(1.0);
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+
+  @media(max-width:991px){
+    .payra-masonary .grid.active, .payra-masonary .grid.open {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+  }
+
+  @media(max-width:600px){
+    .payra-masonary .grid.active, .payra-masonary .grid.open {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+  }

@@ -1,0 +1,68 @@
+/*==================================================
+#1.4 tp-cta-area
+=====================================================*/
+
+.tp-cta-area,
+.tp-cta-area-2 {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(../../images/cta.jpg) no-repeat center center / cover;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.tp-cta-area:before,
+.tp-cta-area-2:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    z-index: -1;
+}
+
+.tp-cta-text {
+    max-width: 715px;
+    margin: auto;
+    text-align: center;
+}
+
+.tp-cta-text h2 {
+    font-size: 48px;
+    color: #fff;
+    margin-top: 0;
+}
+
+.tp-cta-text p {
+    color: #dbdbdb;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.tp-cta-text .theme-btn {
+    margin-right: 15px;
+}
+
+@media(max-width: 992px) {
+    .tp-cta-text h2 {
+        font-size: 30px;
+    }
+
+    .tp-cta-area,
+    .tp-cta-area-2 {
+        padding: 50px 0;
+    }
+}
+
+
+@media(max-width: 590px) {
+
+    .tp-cta-text h2 {
+        font-size: 33px;
+    }
+}
