@@ -124,6 +124,12 @@
 
 .slide-caption .btns .theme-btn {
   margin-right: 30px;
+  background-color: #d044ff;
+}
+
+.slide-caption .btns .theme-btn-s2:hover{
+  background-color: #d044ff;
+  border: 1px solid #d044ff;
 }
 
 .slide-caption .btns {
@@ -211,8 +217,9 @@
   position: relative;
 }
 
+/* Boja primary */
 .hero-style-1 .slide .slide-caption h2 span {
-  color: #f67d4a;
+  color: #d044ff;
 }
 
 @media (max-width: 1199px) {
@@ -487,7 +494,7 @@
 }
 
 .hero-style-2 .theme-btn-s2:hover {
-  background-color: #f67d4a;
+  background-color: #d044ff;;
   color: #fff;
   border: 1px solid #f67d4a;
 }

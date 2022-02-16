@@ -23,15 +23,15 @@ const HomePage =() => {
         <Fragment>
             <Navbar/>
             <Hero Hero={hero1}/>
-            <Features/>
+            {/* <Features/> */}
             <About AbImg={abimg}/>
             <Causes/>
-            <CounterSection/>
-            <Gallery/>
-            <TeamSection/>
-            <EventSection/>
+            {/* <CounterSection/> */}
+            {/* <Gallery/> */}
+            {/* <TeamSection/> */}
+            {/* <EventSection/> */}
             <CtaSection/>
-            <BlogSection/>
+            {/* <BlogSection/> */}
             <Newsletter/>
             <Footer/>
             <Scrollbar/>

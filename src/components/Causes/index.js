@@ -39,8 +39,8 @@ const Causes = (props) => {
                                     <li><Link onClick={ClickHandler} to="/">GOAL : $9860</Link></li>
                                     <li><Link onClick={ClickHandler} to="/">RISED : $768</Link></li>
                                 </ul>
-                                <h3><Link onClick={ClickHandler} to="/case-single">Financial Help for Poor Families</Link></h3>
-                                <p>It is a long established fact that a reader will be distracted.</p>
+                                <h3><Link onClick={ClickHandler} to="/case-single">Lorem ipsum dolor sit amet.</Link></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero minima nostrum voluptatem a?.</p>
                             </div>
                         </div>
                     </div>
@@ -59,12 +59,12 @@ const Causes = (props) => {
                                     <li><Link onClick={ClickHandler} to="/">GOAL : $9860</Link></li>
                                     <li><Link onClick={ClickHandler} to="/">RISED : $768</Link></li>
                                 </ul>
-                                <h3><Link onClick={ClickHandler} to="/case-single">Education for Poor Children</Link></h3>
-                                <p>It is a long established fact that a reader will be distracted.</p>
+                                <h3><Link onClick={ClickHandler} to="/case-single">Lorem ipsum dolor sit.</Link></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae omnis tempore veritatis..</p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-4 col-lg-6 col-12">
+                    {/* <div className="col-xl-4 col-lg-6 col-12">
                         <div className="cause-item">
                             <div className="cause-top">
                                 <div className="cause-img">
@@ -143,7 +143,7 @@ const Causes = (props) => {
                                 <p>It is a long established fact that a reader will be distracted.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

@@ -1,7 +1,18 @@
 
+/****************************************
+My style
+*****************************************/
+.case-area{
+  background: linear-gradient(90deg, rgba(11,2,25,1) 0%, rgba(3,3,48,1) 100%, rgba(0,212,255,1) 100%) !important;
+}
+
 /*=================================================
 #0.9 tp-case-area
 ===================================================*/
+.section-title span {
+  color: #d044ff;
+}
+
 .section-title2 {
   margin-bottom: 90px;
 }
@@ -16,7 +27,7 @@
 
 .cause-top {
   padding: 30px 20px;
-  background: #101010;
+  background: #050110;
   padding-bottom: 50px;
 }
 
@@ -87,7 +98,7 @@
   left: 0;
   top: 0;
   height: 0%;
-  border-left: 3px solid #f67d4a;
+  border-left: 3px solid #d044ff;
   content: "";
   transition: all .8s;
   z-index: 11;
@@ -98,7 +109,7 @@
   right: 0;
   bottom: 0;
   height: 0%;
-  border-right: 3px solid #f67d4a;
+  border-right: 3px solid #d044ff;
   content: "";
   transition: all .5s;
   z-index: 11;
@@ -122,7 +133,7 @@
   right: 0;
   top: 0;
   width: 0;
-  border-top: 3px solid #f67d4a;
+  border-top: 3px solid #d044ff;
   content: "";
   transition: all .7s;
   z-index: 11;
@@ -133,7 +144,7 @@
   left: 0;
   bottom: 0;
   width: 0;
-  border-top: 3px solid #f67d4a;
+  border-top: 3px solid #d044ff;
   content: "";
   transition: all .3s;
   z-index: 11;
@@ -180,6 +191,11 @@
 .case-btn .theme-btn {
   padding: 11px 22px;
   font-size: 14px;
+  background-color: #d044ff;
+}
+.case-btn .theme-btn:hover {
+  background-color: #d044ff;
+  transform: scale(1.2);
 }
 
 .theme-btn i {

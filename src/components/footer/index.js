@@ -26,7 +26,7 @@ const Footer = (props) =>{
                                 <div className="logo widget-title">
                                     <img src={Logo} alt="" />
                                 </div>
-                                <p>Build and Earn with your online store with lots of cool and exclusive tp-features </p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem rem tempore vel!</p>
                                 <ul>
                                     <li>
                                         <div className="parallax-wrap">
@@ -41,25 +41,7 @@ const Footer = (props) =>{
                                         <div className="parallax-wrap">
                                             <div className="parallax-element">
                                                 <Link onClick={ClickHandler} to="/">
-                                                    <i className="ti-twitter-alt"></i>
-                                                </Link>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="parallax-wrap">
-                                            <div className="parallax-element">
-                                                <Link onClick={ClickHandler} to="/">
                                                     <i className="ti-instagram"></i>
-                                                </Link>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="parallax-wrap">
-                                            <div className="parallax-element">
-                                                <Link onClick={ClickHandler} to="/">
-                                                    <i className="ti-google"></i>
                                                 </Link>
                                             </div>
                                         </div>
@@ -74,10 +56,9 @@ const Footer = (props) =>{
                                 </div>
                                 <ul>
                                     <li><Link onClick={ClickHandler} to="/about">About Us</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/case">Our Causes</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/case">Activities</Link></li>
                                     <li><Link onClick={ClickHandler} to="/donate">Donate</Link></li>
                                     <li><Link onClick={ClickHandler} to="/contact">Contact Us</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/event">Our Event</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -86,11 +67,11 @@ const Footer = (props) =>{
                                 <div className="widget-title">
                                     <h3>Contact </h3>
                                 </div>
-                                <p>online store with lots of cool and exclusive tp-features</p>
+                                <p>Lorem ipsum dolor amet opet den-bumb</p>
                                 <div className="contact-ft">
                                     <ul>
-                                        <li><i className="fi flaticon-pin"></i>28 Street, New York City, USA</li>
-                                        <li><i className="fi flaticon-call"></i>+000123456789</li>
+                                        <li><i className="fi flaticon-pin"></i>Den Bosch, The Netherlands</li>
+                                        <li><i className="fi flaticon-call"></i>+31684359770</li>
                                         <li><i className="fi flaticon-envelope"></i>Sadakat@gmail.com</li>
                                     </ul>
                                 </div>
