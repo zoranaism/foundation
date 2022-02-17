@@ -20,21 +20,21 @@ const Contactpage = () => {
                                         <i className="ti-location-pin"></i>
                                     </div>
                                     <h5>Our Location</h5>
-                                    <p>245 King Street, Touterie Victoria 8520 Australia</p>
+                                    <p>Den Bosch, The Netherlands</p>
                                 </li>
                                 <li>
                                     <div className="icon">
                                         <i className="ti-mobile"></i>
                                     </div>
                                     <h5>Phone</h5>
-                                    <p>0-123-456-7890</p>
+                                    <p>+31684359770</p>
                                 </li>
                                 <li>
                                     <div className="icon">
                                         <i className="ti-email"></i>
                                     </div>
                                     <h5>Email</h5>
-                                    <p>sample@gmail.com</p>
+                                    <p>stellarsoundfoundation@gmail.com</p>
                                 </li>
                             </ul>
                         </div>
@@ -53,7 +53,7 @@ const Contactpage = () => {
                 <div className="row">
                     <div className="col col-xs-12">
                         <div className="contact-map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.9147703055!2d-74.11976314309273!3d40.69740344223377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1547528325671"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39551.89142989663!2d5.283159105409419!3d51.714866674503384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6ee37ad3edd37%3A0x400de5a8d1e7c50!2s&#39;s-Hertogenbosch%2C%20Netherlands!5e0!3m2!1sen!2srs!4v1645111254144!5m2!1sen!2srs"></iframe>
                         </div>
                     </div>
                 </div>

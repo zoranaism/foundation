@@ -20,7 +20,7 @@
   padding-left: 15px;
   height: 45px;
   border-radius: 0;
-  background: #262525;
+  background: transparent;
   color: #555;
 }
 
@@ -65,7 +65,7 @@
 
 .volunteer-contact-form {
   padding: 50px 40px;
-  background: #202120;
+  background: #10101059;
   position: relative;
   z-index: 1;
   box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.15);
@@ -104,14 +104,27 @@
 }
 
 .team-section.v2{
-  background: #101010;
+  background: #050110;
 }
 .volunteer-area {
-  background: #1e1e1e;
+  background: linear-gradient(90deg, rgba(11,2,25,1) 0%, rgba(3,3,48,1) 100%, rgba(0,212,255,1) 100%);
 }
 .team-section.v2 .details {
   background-color: #1e1e1e;
 }
+.team-section.v2 .details a:hover{
+  color: #d044ff;
+}
 .team-section.v2 .img-holder {
   border-bottom: 10px solid #101010;
+}
+
+/* My style */
+.submit-area .theme-btn{
+  background: transparent;
+  border: 1px solid #d044ff;
+}
+.submit-area .theme-btn:hover{
+  background: #d044ff;
+  border: 1px solid #d044ff;
 }

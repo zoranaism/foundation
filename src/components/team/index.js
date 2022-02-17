@@ -17,7 +17,7 @@ const TeamSection = (props) => {
                 <div className="row justify-content-center">
                     <div className="col col-lg-6">
                         <div className="section-title text-center">
-                            <span>Meet Our Team</span>
+                            <span>Meet Our jgjghj</span>
                             <h2>Our Expert Volunteer</h2>
                         </div>
                     </div>

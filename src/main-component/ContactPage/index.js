@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import Navbar3 from '../../components/Navbar3'
+import Navbar from '../../components/Navbar'
 import PageTitle from '../../components/pagetitle'
 import Contactpage from '../../components/Contactpage'
 import Footer from '../../components/footer'
@@ -10,10 +10,10 @@ import Newsletter from '../../components/Newsletter'
 const ContactPage =() => {
     return(
         <Fragment>
-            <Navbar3/>
+            <Navbar/>
             <PageTitle pageTitle={'Contact Us'} pagesub={'Contact'}/> 
             <Contactpage/>
-            <Newsletter/>
+            {/* <Newsletter/> */}
             <Footer/>
             <Scrollbar/>
         </Fragment>
