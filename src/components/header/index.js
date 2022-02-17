@@ -35,21 +35,21 @@ const Header = (props) => {
                     <div className="col-lg-8 d-lg-block d-none">
                         <nav>
                             <ul>
-                                <li><Link onClick={ClickHandler}  to="/home" title="">Become a volunteer</Link>
+                                <li><Link onClick={ClickHandler}  to="/volunteer" title="">Become a volunteer</Link>
                                     {/* <ul>
                                         <li><Link onClick={ClickHandler}  to="/home">Home style 1</Link></li>
                                         <li><Link onClick={ClickHandler} to="/home2">Home style 2</Link></li>
                                         <li><Link onClick={ClickHandler} to="/home3">Home style 3</Link></li>
                                     </ul> */}
                                 </li>
-                                <li><Link onClick={ClickHandler} to="/about" title="">Donate </Link></li>
-                                <li><Link onClick={ClickHandler} to="/case" title="">Contact </Link>
+                                <li><Link onClick={ClickHandler} to="/donate" title="">Donate </Link></li>
+                                <li><Link onClick={ClickHandler} to="/contact" title="">Contact </Link>
                                     {/* <ul>
                                         <li><Link onClick={ClickHandler} to="/case" title="">Causes</Link></li>
                                         <li><Link onClick={ClickHandler} to="/case-single" title="">Causes Single</Link></li>
                                     </ul> */}
                                 </li>
-                                <li><Link onClick={ClickHandler} to="/event" title="">Images</Link>
+                                <li><Link onClick={ClickHandler} to="/gallery" title="">Images</Link>
                                     {/* <ul>
                                         <li><Link onClick={ClickHandler} to="/event" title="">Event</Link></li>
                                         <li><Link onClick={ClickHandler} to="/event-details" title="">Event Single</Link></li>
