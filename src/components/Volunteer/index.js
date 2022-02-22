@@ -4,7 +4,7 @@ import React from 'react'
 import TeamSection from '../team'
 import './style.css'
 
-import vimg from '../../images/volunteer.jpg'
+import vimg from '../../images/Volunteers.jpg'
 
 const Volunteer = () =>  {
 

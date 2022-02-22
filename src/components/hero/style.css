@@ -11,8 +11,9 @@
 .slide-inner{
   height: 100%;
   display: flex;
-    justify-content: center;
-    flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
+  background-attachment: fixed;
 }
 
 @media (max-width: 767px) {
@@ -124,7 +125,6 @@
 
 .slide-caption .btns .theme-btn {
   margin-right: 30px;
-  background-color: #d044ff;
 }
 
 .slide-caption .btns .theme-btn-s2:hover{
@@ -660,4 +660,12 @@ hero-style3
   border-bottom: 0;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/***************************************************************************
+My Style
+***************************************************************************/
+
+.tp-cta-area{
+  background-attachment: fixed !important;
 }

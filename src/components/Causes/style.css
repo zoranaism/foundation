@@ -5,13 +5,15 @@ My style
 .case-area{
   background: linear-gradient(90deg, rgba(11,2,25,1) 0%, rgba(3,3,48,1) 100%, rgba(0,212,255,1) 100%) !important;
 }
+.section-title h2 {
+  color: #d044ff;
+  font-size: 2.5em;
+}
 
 /*=================================================
 #0.9 tp-case-area
 ===================================================*/
-.section-title span {
-  color: #d044ff;
-}
+
 
 .section-title2 {
   margin-bottom: 90px;
@@ -191,10 +193,8 @@ My style
 .case-btn .theme-btn {
   padding: 11px 22px;
   font-size: 14px;
-  background-color: #d044ff;
 }
 .case-btn .theme-btn:hover {
-  background-color: #d044ff;
   transform: scale(1.2);
 }
 

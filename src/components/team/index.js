@@ -17,8 +17,8 @@ const TeamSection = (props) => {
                 <div className="row justify-content-center">
                     <div className="col col-lg-6">
                         <div className="section-title text-center">
-                            <span>Meet Our jgjghj</span>
-                            <h2>Our Expert Volunteer</h2>
+                            
+                            <h2>Meet Our Expert Team</h2>
                         </div>
                     </div>
                 </div>
@@ -30,8 +30,8 @@ const TeamSection = (props) => {
                                     <img src={tm1} alt="" />
                                 </div>
                                 <div className="details">
-                                    <h3><Link onClick={ClickHandler} to="/volunteer">Devin Robertson</Link></h3>
-                                    <p>CEO & Founder</p>
+                                    <h3><Link onClick={ClickHandler} to="/volunteer">Pavle Pesic</Link></h3>
+                                    <p>Frontend Developer</p>
                                 </div>
                             </div>
                             <div className="grid">
@@ -39,8 +39,8 @@ const TeamSection = (props) => {
                                     <img src={tm2} alt="" />
                                 </div>
                                 <div className="details">
-                                    <h3><Link onClick={ClickHandler} to="/volunteer">Rickey Goodman</Link></h3>
-                                    <p>Volunteer</p>
+                                    <h3><Link onClick={ClickHandler} to="/volunteer">Andrijana Nikolic</Link></h3>
+                                    <p>Designer</p>
                                 </div>
                             </div>
                             <div className="grid">
@@ -48,8 +48,8 @@ const TeamSection = (props) => {
                                     <img src={tm3} alt="" />
                                 </div>
                                 <div className="details">
-                                    <h3><Link onClick={ClickHandler} to="/volunteer">Jean Washington</Link></h3>
-                                    <p>Volunteer</p>
+                                    <h3><Link onClick={ClickHandler} to="/volunteer">Katarina Krstic</Link></h3>
+                                    <p>Human Resources</p>
                                 </div>
                             </div>
                         </div>

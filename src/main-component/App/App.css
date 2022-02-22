@@ -277,7 +277,7 @@ img {
 .theme-btn-s2,
 .theme-btn-s4,
 .theme-btn-s3 {
-    background-color: #f67d4a;
+    background-color: #d044ff;
     color: #fff;
     font-weight: 700;
     padding: 13px 38px;
@@ -311,7 +311,7 @@ img {
 .theme-btn-s2:active,
 .theme-btn-s4:active,
 .theme-btn-s3:active {
-    background-color: #f67d4a;
+    background-color: #d044ff;
     color: #fff;
 }
 
@@ -488,4 +488,13 @@ img {
   box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
     -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
     -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
+}
+
+/***************************************************************
+My Style
+***************************************************************/
+.tp-breadcumb-area{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
