@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import emailjs from 'emailjs-com'
 
 class ContactForm extends Component {
 
@@ -9,11 +9,11 @@ class ContactForm extends Component {
         email: '',
         subject: '',
         lastname: '',
+        message: '',
         events: '',
         notes: '',
         error: {}
     }
-
 
     changeHandler = (e) => {
         const error = this.state.error;
@@ -31,6 +31,7 @@ class ContactForm extends Component {
         const { name,
             email,
             subject,
+            message,
             lastname,
             events,
             notes, error } = this.state;
@@ -43,6 +44,9 @@ class ContactForm extends Component {
         }
         if (subject === '') {
             error.subject = "Please enter your subject";
+        }
+        if (message === '') {
+            error.message = "Please enter your message";
         }
         if (lastname === '') {
             error.lastname = "Please enter your Lastname";
@@ -65,22 +69,52 @@ class ContactForm extends Component {
                 name: '',
                 email: '',
                 subject: '',
+                message: '',
                 events: '',
                 notes: '',
                 error: {}
             })
         }
+
+        emailjs.sendForm(
+            'service_s5yzsk9',
+            'template_q2hv6nk',
+            e.target,
+            'user_GpO6McyoqejX9NUtKRbtt'
+            ).then(res=>{
+                if(res.status){
+                    alert("Your message was sent successfully")
+                    this.setState({
+                        name: '',
+                        lastname: '',
+                        message: '',
+                        email: '',
+                        subject: '',
+                        events: '',
+                        notes: '',
+                        error: {}
+                    })
+                }
+                else{
+                    alert("Something went wrong try again")
+                }
+                console.log(res.status)
+            }).catch(err=>{
+                console.log(err);
+            });
     }
+
 
     render(){
         const { name,
             email,
+            message,
             subject,
             lastname,
             error } = this.state;
 
         return(
-            <form onSubmit={this.subimtHandler} className="form">
+            <form id='form' onSubmit={this.subimtHandler} className="form">
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-12">
                         <div className="form-field">
@@ -108,7 +142,7 @@ class ContactForm extends Component {
                     </div>
                     <div className="col-lg-12">
                         <div className="form-field">
-                            <textarea name="message" placeholder="Message"></textarea>
+                            <textarea name="message" onChange={this.changeHandler} value={message} placeholder="Message"></textarea>
                         </div>
                     </div>
                     <div className="col-lg-12">
