@@ -31,18 +31,28 @@ const Footer = (props) =>{
                                     <li>
                                         <div className="parallax-wrap">
                                             <div className="parallax-element">
-                                                <Link onClick={ClickHandler} to="/">
-                                                    <i className="ti-facebook"></i>
-                                                </Link>
+                                            <a href="https://www.facebook.com/stellarsoundpodcast/"><i className="ti-facebook"></i></a>
                                             </div>
                                         </div>
                                     </li>
-                                    <li>
+                                    <li> 
                                         <div className="parallax-wrap">
                                             <div className="parallax-element">
-                                                <Link onClick={ClickHandler} to="/">
-                                                    <i className="ti-instagram"></i>
-                                                </Link>
+                                                <a href="https://www.instagram.com/stellarsoundpodcast/"><i className="ti-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li> 
+                                        <div className="parallax-wrap">
+                                            <div className="parallax-element">
+                                                <a href="https://twitter.com/SoundStellar"><i className="ti-twitter"></i></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li> 
+                                        <div className="parallax-wrap">
+                                            <div className="parallax-element">
+                                                <a href="https://www.linkedin.com/company/72044553/"><i className="ti-linkedin"></i></a>
                                             </div>
                                         </div>
                                     </li>
@@ -55,10 +65,10 @@ const Footer = (props) =>{
                                     <h3>Useful Links</h3>
                                 </div>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} to="/about">About Us</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/case">Activities</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/volunteer">Become a volunteer</Link></li>
                                     <li><Link onClick={ClickHandler} to="/donate">Donate</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/contact">Contact Us</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/gallery">Images</Link></li>
                                 </ul>
                             </div>
                         </div>

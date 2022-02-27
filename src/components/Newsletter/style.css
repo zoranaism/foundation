@@ -78,6 +78,7 @@
 
 .news-letter-section form>div {
   position: relative;
+  display: flex;
 }
 
 .news-letter-section form>div input {

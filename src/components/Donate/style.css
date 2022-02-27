@@ -208,3 +208,30 @@
 .tp-donation-page-area.section-padding{
     background: linear-gradient(90deg, rgba(11,2,25,1) 0%, rgba(3,3,48,1) 100%, rgba(0,212,255,1) 100%);
 }
+
+#Donations{
+    text-align: center;
+}
+
+#Donations .donateButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#Donations .donateButtons .donate-button{
+    background: transparent;
+}
+#Donations .donateButtons .donate-button button{
+    background: transparent;
+    color: white;
+    padding: 20px 50px;
+    border: 1px solid #d044ff;
+    border-radius: 5px;
+        transition: 0.3s ease;
+}
+#Donations .donateButtons .donate-button button:hover{
+    background: #d044ff;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
