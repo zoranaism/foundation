@@ -40,7 +40,7 @@ class Hero extends Component {
                                     </div>
                                     <div className="btns">
                                         <Link to="/donate" className="theme-btn">Donate Now</Link>
-                                        <Link to="/about" className="theme-btn-s2">Know More</Link>
+                                        {/* <Link to="/about" className="theme-btn-s2">Know More</Link> */}
                                     </div>
                                 </div>
                             </div>
