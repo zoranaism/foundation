@@ -6,7 +6,10 @@
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "bootstrap": "^4.3.1",
+<<<<<<< Updated upstream
     "emailjs-com": "^3.2.0",
+=======
+>>>>>>> Stashed changes
     "node-sass": "^7.0.1",
     "react": "^16.12.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
