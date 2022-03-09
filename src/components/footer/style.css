@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 .tp-site-footer,
 .tp-site-footer {
-    background: #1e1e1e;
+    background: linear-gradient(90deg, rgba(11,2,25,1) 0%, rgba(3,3,48,1) 100%, rgba(0,212,255,1) 100%);
     position: relative;
     font-size: 15px;
     overflow: hidden;
@@ -163,11 +163,11 @@
 
 .tp-site-footer .about-widget ul a:hover,
 .tp-site-footer-2 .about-widget ul a:hover {
-    color: #f67d4a;
+    color: #d044ff;
 }
 
 .tp-site-footer-2 .about-widget ul a {
-    color: #f67d4a;
+    color: #d044ff;
 }
 
 .tp-site-footer .link-widget,
@@ -263,7 +263,7 @@
 .tp-site-footer-2 .tp-lower-footer {
     text-align: center;
     position: relative;
-    background: #262525;
+    background: rgb(7, 7, 7);
 }
 
 .tp-site-footer .tp-lower-footer .row,

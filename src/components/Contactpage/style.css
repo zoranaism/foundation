@@ -34,7 +34,7 @@
 .contact-pg-contact-section .icon i {
   font-size: 20px;
   font-size: 1.25rem;
-  color: #f67d4a;
+  color: #d044ff;
 }
 
 .contact-pg-contact-section .contact-details h5 {
@@ -206,4 +206,17 @@
   .contact-pg-contact-section .contact-form-area {
     margin-top: 35px;
 }
+}
+
+/* My Style */
+.row .form-submit .theme-btn{
+  background: transparent;
+  border: 1px solid #d044ff ;
+}
+.row .form-submit .theme-btn:hover{
+  background: #d044ff;
+  border: 1px solid #d044ff ;
+}
+.contact-pg-contact-section {
+  background: linear-gradient(90deg, rgba(11,2,25,1) 0%, rgba(3,3,48,1) 100%, rgba(0,212,255,1) 100%);
 }

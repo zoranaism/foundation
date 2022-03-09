@@ -1,3 +1,16 @@
+
+/**************************************
+My style  
+**************************************/
+.newsletter-form .bigCursor{
+    background: #d044ff;
+}
+ul.smothscroll a{
+    background: #d044ff !important;
+    border: 2px solid #d044ff !important;
+}
+
+
 /*==================================================
 #1.4 tp-cta-area
 =====================================================*/
@@ -33,7 +46,7 @@
 }
 
 .tp-cta-text h2 {
-    font-size: 48px;
+    font-size: 45px;
     color: #fff;
     margin-top: 0;
 }
@@ -46,7 +59,17 @@
 
 .tp-cta-text .theme-btn {
     margin-right: 15px;
+    background-color: #d044ff;
 }
+.tp-cta-text .theme-btn:hover {
+    background-color: #d044ff;
+}
+
+.btns .theme-btn-s2:hover {
+    background: #d044ff;
+    border: 1px solid #d044ff;
+}
+
 
 @media(max-width: 992px) {
     .tp-cta-text h2 {

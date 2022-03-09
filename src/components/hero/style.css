@@ -11,8 +11,9 @@
 .slide-inner{
   height: 100%;
   display: flex;
-    justify-content: center;
-    flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
+  background-attachment: fixed;
 }
 
 @media (max-width: 767px) {
@@ -126,6 +127,11 @@
   margin-right: 30px;
 }
 
+.slide-caption .btns .theme-btn-s2:hover{
+  background-color: #d044ff;
+  border: 1px solid #d044ff;
+}
+
 .slide-caption .btns {
   margin-top: 30px;
 }
@@ -211,8 +217,9 @@
   position: relative;
 }
 
+/* Boja primary */
 .hero-style-1 .slide .slide-caption h2 span {
-  color: #f67d4a;
+  color: #d044ff;
 }
 
 @media (max-width: 1199px) {
@@ -487,7 +494,7 @@
 }
 
 .hero-style-2 .theme-btn-s2:hover {
-  background-color: #f67d4a;
+  background-color: #d044ff;;
   color: #fff;
   border: 1px solid #f67d4a;
 }
@@ -653,4 +660,12 @@ hero-style3
   border-bottom: 0;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/***************************************************************************
+My Style
+***************************************************************************/
+
+.tp-cta-area{
+  background-attachment: fixed !important;
 }

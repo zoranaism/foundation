@@ -1,19 +1,17 @@
 import React, {Fragment} from 'react';
-import Navbar3 from '../../components/Navbar3'
+import Navbar from '../../components/Navbar'
 import PageTitle from '../../components/pagetitle'
 import Donate from '../../components/Donate'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
-import Newsletter from '../../components/Newsletter'
 
 
 const DonatePage =() => {
     return(
         <Fragment>
-            <Navbar3/>
+            <Navbar/>
             <PageTitle pageTitle={'Donate Now'} pagesub={'Donate'}/> 
             <Donate/>
-            <Newsletter/>
             <Footer/>
             <Scrollbar/>
         </Fragment>
