@@ -10,7 +10,7 @@ const CtaSection = (props) => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="tp-cta-text">
-                            <h2>You Can Help The Poor With Us</h2>
+                            <h2>Become part of the Stellar Story</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse </p>
                             <div className="btns">
                                 <Link to="/donate" className="theme-btn">Donate Now</Link>

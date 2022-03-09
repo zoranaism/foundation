@@ -2,10 +2,6 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import causesimg from '../../images/cause/img-1.png'
 import causesimg2 from '../../images/cause/img-2.jpg'
-import causesimg3 from '../../images/cause/img-3.jpg'
-import causesimg4 from '../../images/cause/img-4.jpg'
-import causesimg5 from '../../images/cause/img-5.jpg'
-import causesimg6 from '../../images/cause/img-6.jpg'
 import './style.css'
 
 const Causes = (props) => {
@@ -39,8 +35,8 @@ const Causes = (props) => {
                                     <li><Link onClick={ClickHandler} to="/">GOAL : $9860</Link></li>
                                     <li><Link onClick={ClickHandler} to="/">RISED : $768</Link></li>
                                 </ul>
-                                <h3><Link onClick={ClickHandler} to="/case-single">Financial Help for Poor Families</Link></h3>
-                                <p>It is a long established fact that a reader will be distracted.</p>
+                                <h3><Link onClick={ClickHandler} to="/case-single">Lorem ipsum dolor sit amet.</Link></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero minima nostrum voluptatem a?.</p>
                             </div>
                         </div>
                     </div>
@@ -59,88 +55,8 @@ const Causes = (props) => {
                                     <li><Link onClick={ClickHandler} to="/">GOAL : $9860</Link></li>
                                     <li><Link onClick={ClickHandler} to="/">RISED : $768</Link></li>
                                 </ul>
-                                <h3><Link onClick={ClickHandler} to="/case-single">Education for Poor Children</Link></h3>
-                                <p>It is a long established fact that a reader will be distracted.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-4 col-lg-6 col-12">
-                        <div className="cause-item">
-                            <div className="cause-top">
-                                <div className="cause-img">
-                                    <img src={causesimg3} alt="" />
-                                    <div className="case-btn">
-                                        <Link onClick={ClickHandler} to="/donate" className="theme-btn">Donate Now<i className="fa fa-angle-double-right" aria-hidden="true"></i></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="cause-text">
-                                <ul>
-                                    <li><Link onClick={ClickHandler} to="/">GOAL : $9860</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/">RISED : $768</Link></li>
-                                </ul>
-                                <h3><Link onClick={ClickHandler} to="/case-single">Send Child to School for a Year</Link></h3>
-                                <p>It is a long established fact that a reader will be distracted.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-4 col-lg-6 col-12">
-                        <div className="cause-item">
-                            <div className="cause-top">
-                                <div className="cause-img">
-                                    <img src={causesimg4} alt="" />
-                                    <div className="case-btn">
-                                        <Link onClick={ClickHandler} to="/donate" className="theme-btn">Donate Now<i className="fa fa-angle-double-right" aria-hidden="true"></i></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="cause-text">
-                                <ul>
-                                    <li><Link onClick={ClickHandler} to="/">GOAL : $9860</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/">RISED : $768</Link></li>
-                                </ul>
-                                <h3><Link onClick={ClickHandler} to="/case-single">Food And Home for Children</Link></h3>
-                                <p>It is a long established fact that a reader will be distracted.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-4 col-lg-6 col-12">
-                        <div className="cause-item">
-                            <div className="cause-top">
-                                <div className="cause-img">
-                                    <img src={causesimg5} alt="" />
-                                    <div className="case-btn">
-                                        <Link onClick={ClickHandler} to="/donate" className="theme-btn">Donate Now<i className="fa fa-angle-double-right" aria-hidden="true"></i></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="cause-text">
-                                <ul>
-                                    <li><Link onClick={ClickHandler} to="/">GOAL : $9860</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/">RISED : $768</Link></li>
-                                </ul>
-                                <h3><Link onClick={ClickHandler} to="/case-single">Pure Water For The World</Link></h3>
-                                <p>It is a long established fact that a reader will be distracted.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-4 col-lg-6 col-12">
-                        <div className="cause-item">
-                            <div className="cause-top">
-                                <div className="cause-img">
-                                    <img src={causesimg6} alt="" />
-                                    <div className="case-btn">
-                                        <Link onClick={ClickHandler} to="/donate" className="theme-btn">Donate Now<i className="fa fa-angle-double-right" aria-hidden="true"></i></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="cause-text">
-                                <ul>
-                                    <li><Link onClick={ClickHandler} to="/">GOAL : $9860</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/">RISED : $768</Link></li>
-                                </ul>
-                                <h3><Link onClick={ClickHandler} to="/case-single">Recycling For Charity</Link></h3>
-                                <p>It is a long established fact that a reader will be distracted.</p>
+                                <h3><Link onClick={ClickHandler} to="/case-single">Lorem ipsum dolor sit.</Link></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae omnis tempore veritatis..</p>
                             </div>
                         </div>
                     </div>

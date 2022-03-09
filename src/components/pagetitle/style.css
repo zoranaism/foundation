@@ -10,6 +10,7 @@ breadcumb-style
   justify-content: center;
   flex-direction: column;
   z-index: 1;
+  
 }
 
 .tp-breadcumb-area:before {
@@ -62,11 +63,11 @@ breadcumb-style
 }
 
 .tp-breadcumb-wrap ul li a:hover {
-  color: #f67d4a;
+  color: #d044ff;
 }
 
 .tp-breadcumb-wrap ul li:last-child {
-  color: #f67d4a;
+  color: #d044ff;
 }
 
 .tp-breadcumb-wrap ul li:after {

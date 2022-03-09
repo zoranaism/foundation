@@ -1,3 +1,8 @@
+*{
+	--black: #050110;
+	--purple:#d044ff;
+	--blue: #2a7a97;
+}
 /* ===================== HEADER ======================*/
 
 .logo {
@@ -17,6 +22,7 @@
 }
 .logo a img{
 	margin-right: 10px;
+	height: 46px;
 }
 .logo a:hover{
 	color: #212122;
@@ -78,7 +84,7 @@ nav ul li:hover > ul li {
 }
 nav ul li a:hover,
 nav ul li a.active {
-	color: #f67d4a;
+	color: var(--purple);
 	text-decoration: none;
 }
 
@@ -121,7 +127,9 @@ nav ul ul ul {
 	top: 0px;
 	transition: all .5s;
 }
-
+.fixed-navbar.active .header-style-3{
+	background-color: #070111 !important;
+}
 
 header.fixed,
 header.fixed.style2,
@@ -165,7 +173,6 @@ header.fixed .header-content {
     display: inline-block;
     margin-right: 45px;
 }
-
 @media(max-width:1200px){
 	.contact .theme-btn-s2{
 		display: none;
@@ -175,7 +182,6 @@ header.fixed .header-content {
 @media(max-width:991px){
 	.middle-header {
 		position: relative;
-		background: #262525;
 	}
 	.header-content .contact-info-1 span {
 		margin-right: 20px;
@@ -204,7 +210,7 @@ header.fixed .header-content {
 	justify-content: flex-end;
   }
   .header-style-2, .header-style-3 {
-	background: rgba(255, 255, 255, .05);
+	background: rgba(0, 0, 0, 0.493);
 	position: relative;
 	z-index: 9999;
 }
@@ -332,7 +338,7 @@ header.fixed .header-content {
   }
   
   .header-style-2 .cart-search-contact .mini-cart .cart-count, .header-style-3 .cart-search-contact .mini-cart .cart-count {
-	background:#f67d4a;
+	background:#d044ff;
 	width: 22px;
 	height: 22px;
 	line-height: 22px;
@@ -437,13 +443,13 @@ header.fixed .header-content {
   }
   
   .header-style-2 .cart-search-contact .mini-cart-content .mini-cart-item-des a:hover, .header-style-3 .cart-search-contact .mini-cart-content .mini-cart-item-des a:hover {
-	color: #f67d4a;
+	color: #d044ff;
   }
   
   .header-style-2 .cart-search-contact .mini-cart-content .mini-cart-item-des .mini-cart-item-price, .header-style-3 .cart-search-contact .mini-cart-content .mini-cart-item-des .mini-cart-item-price {
 	font-size: 13px;
 	font-size: 0.86667rem;
-	color: #888;
+	color: rgb(0, 0, 0);
 	display: block;
 	margin-top: 3px;
   }
@@ -518,3 +524,7 @@ header.fixed .header-content {
 	background: #202120;
 	position: relative;
   }
+
+.header-content .row{
+	justify-content: space-between;
+}
