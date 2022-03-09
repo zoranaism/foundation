@@ -1,17 +1,9 @@
 import React from 'react'
 
-import pmt1 from '../../images/checkout/img-1.png'
-import pmt2 from '../../images/checkout/img-2.png'
-import pmt3 from '../../images/checkout/img-3.png'
-import pmt4 from '../../images/checkout/img-4.png'
-
 import './style.css'
 
 const Donate = (props) => {
 
-    const SubmitHandler = (e) =>{
-        e.preventDefault()
-    }
 
     return(
         <div className="tp-donation-page-area section-padding">

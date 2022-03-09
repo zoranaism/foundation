@@ -1,6 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
-import VideoModal from  '../ModalVideo'
 import abimg2 from '../../images/img-1.png'
 import './style.css'
 
@@ -15,7 +13,6 @@ const About = (props) => {
                     <div className="col-lg-6 col-sm-12 col-12">
                         <div className="about-img">
                             <img src={props.AbImg} alt=""/>
-                            {/* <VideoModal/> */}
                         </div>
                     </div>
                     <div className="col-lg-6 col-sm-12 col-12">

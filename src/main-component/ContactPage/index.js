@@ -4,7 +4,6 @@ import PageTitle from '../../components/pagetitle'
 import Contactpage from '../../components/Contactpage'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
-import Newsletter from '../../components/Newsletter'
 
 
 const ContactPage =() => {
@@ -13,7 +12,6 @@ const ContactPage =() => {
             <Navbar/>
             <PageTitle pageTitle={'Contact Us'} pagesub={'Contact'}/> 
             <Contactpage/>
-            {/* <Newsletter/> */}
             <Footer/>
             <Scrollbar/>
         </Fragment>
