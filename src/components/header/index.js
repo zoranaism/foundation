@@ -5,9 +5,9 @@ import MobileMenu from '../../components/MobileMenu'
 import './style.css'
 
 const Header = (props) => {
-    const SubmitHandler = (e) =>{
-        e.preventDefault()
-     }
+    // const SubmitHandler = (e) =>{
+    //     e.preventDefault()
+    //  }
 
      const ClickHandler = () =>{
         window.scrollTo(10, 0);
