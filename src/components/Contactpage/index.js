@@ -53,7 +53,7 @@ const Contactpage = () => {
                 <div className="row">
                     <div className="col col-xs-12">
                         <div className="contact-map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39551.89142989663!2d5.283159105409419!3d51.714866674503384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6ee37ad3edd37%3A0x400de5a8d1e7c50!2s&#39;s-Hertogenbosch%2C%20Netherlands!5e0!3m2!1sen!2srs!4v1645111254144!5m2!1sen!2srs"></iframe>
+                            <iframe title="maps"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39551.89142989663!2d5.283159105409419!3d51.714866674503384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6ee37ad3edd37%3A0x400de5a8d1e7c50!2s&#39;s-Hertogenbosch%2C%20Netherlands!5e0!3m2!1sen!2srs!4v1645111254144!5m2!1sen!2srs"></iframe>
                         </div>
                     </div>
                 </div>

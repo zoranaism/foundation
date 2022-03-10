@@ -3,9 +3,9 @@ import abimg2 from '../../images/img-1.png'
 import './style.css'
 
 const About = (props) => {
-    const ClickHandler = () =>{
-        window.scrollTo(10, 0);
-     }
+    // const ClickHandler = () =>{
+    //     window.scrollTo(10, 0);
+    //  }
     return(
         <div className="about-style-2">
             <div className="container">

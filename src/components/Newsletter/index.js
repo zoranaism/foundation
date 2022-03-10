@@ -19,7 +19,7 @@ const Newsletter = (props) => {
                                 <div className="newsletter-form">
                                     <form onSubmit={submitHandler}>
                                         <div>
-                                        <iframe width="500" height="300" src="https://c32e306d.sibforms.com/serve/MUIEAA1s4EU_dLgfcZhrrpz0MssFIhVA7LShGqTSdB7eyS45tpTbA_ua48Whto9tfS5EFMS20de4LWUrCZMIuxDXpp5sQr5hlVXlTgZKNFFRW0MBcbTijJ6o78Wk91jwscRSPGywfXbZ8usI0XRGo65VnFwTNthEZORBXQSWKaDzui_vJca9NP4Bqh-1iFGHAazO9i8vA9yIZ6Km" frameborder="0" scrolling="auto" allowfullscreen ></iframe>
+                                        <iframe title='form' width="500" height="300" src="https://c32e306d.sibforms.com/serve/MUIEAA1s4EU_dLgfcZhrrpz0MssFIhVA7LShGqTSdB7eyS45tpTbA_ua48Whto9tfS5EFMS20de4LWUrCZMIuxDXpp5sQr5hlVXlTgZKNFFRW0MBcbTijJ6o78Wk91jwscRSPGywfXbZ8usI0XRGo65VnFwTNthEZORBXQSWKaDzui_vJca9NP4Bqh-1iFGHAazO9i8vA9yIZ6Km" frameborder="0" scrolling="auto" allowfullscreen ></iframe>
                                         </div>
                                     </form>
                                 </div>
