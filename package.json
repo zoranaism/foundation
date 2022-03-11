@@ -1,7 +1,7 @@
 {
   "name": "sadakat",
   "version": "0.1.0",
-  "homepage": "http://sadakat-react.thmepresss.com",
+  "homepage": "index.html",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
