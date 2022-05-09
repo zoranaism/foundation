@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import Homepage from '../HomePage'
 import GalleryPage from '../GalleryPage'
@@ -13,14 +13,14 @@ const AllRoute = () => {
   return (
     <div className="App">
        <Router>
-          <Switch>
-            <Route exact path='/' component={Homepage}/>
-            <Route path='/home' component={Homepage} />
-            <Route path='/gallery' component={GalleryPage} />
-            <Route path='/donate' component={DonatePage}/>
-            <Route path='/volunteer' component={VolunteerPage}/> 
-            <Route path='/contact' component={ContactPage}/>
-          </Switch>
+          <Routes>
+            <Route path='/' element={<Homepage />}/>
+            <Route path='/home' element={<Homepage />} />
+            <Route path='/gallery' element={<GalleryPage />} />
+            <Route path='/donate' element={<DonatePage />}/>
+            <Route path='/volunteer' element={<VolunteerPage />}/> 
+            <Route path='/contact' element={<ContactPage />}/>
+          </Routes>
       </Router>
       
     </div>
