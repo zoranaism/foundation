@@ -21,6 +21,7 @@ export const SingleCause = (props) => {
             </div>
           </div>
         </div>
+        
         <div className="cause-text">
           <ul>
             <li>
