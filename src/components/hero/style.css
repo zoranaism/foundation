@@ -137,8 +137,8 @@
 }
 
 .hero .slide-caption>div * {
-  -webkit-animation: fadeOutLeft 1.5s both;
-  animation: fadeOutLeft 1.5s both;
+  -webkit-animation: fadeInLeft 1.5s both;
+  animation: fadeInLeft 1.5s both;
 }
 
 .hero .slide-caption>.slider-pic * {

@@ -20,7 +20,7 @@ class Hero extends Component {
                                         <p>Stellar Sound Foundation is an international foundation <br/> that aims to improve quality and diversity in the music industry.</p>
                                     </div>
                                     <div className="btns">
-                                        <Link to="/donate" className="theme-btn">Donate Now</Link>
+                                        <Link to="paypal.me/stellarsoundpodcast" className="theme-btn">Donate Now</Link>
                                     </div>
                                 </div>
                             </div>

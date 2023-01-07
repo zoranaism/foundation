@@ -20,7 +20,7 @@ const HomePage =() => {
             <About AbImg={abimg}/>
             <Causes/>
             <CtaSection/>
-            <Newsletter/>
+            {/* <Newsletter/> */}
             <Footer/>
             <Scrollbar/>
         </Fragment>

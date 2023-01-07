@@ -14,13 +14,10 @@ const Causes = (props) => {
             <div className="thumb-text">
               <span>CAUSES</span>
             </div>
-            <h2>Latest Caused of Stellar Sound Foundation</h2>
+            <h2>Stellar Sound Foundation Projects</h2>
           </div>
         </div>
         <div className="row">
-          <SingleCause />
-          <SingleCause />
-          <SingleCause />
           <SingleCause />
           <SingleCause />
           <SingleCause />

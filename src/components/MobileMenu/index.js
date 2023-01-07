@@ -214,7 +214,7 @@ export default class MobileMenu extends Component {
 
                 </div>
 
-                <div className="showmenu" onClick={this.menuHandler}><i className="fa fa-bars" aria-hidden="true"></i></div>
+                {/* <div className="showmenu" onClick={this.menuHandler}><i className="fa fa-bars" aria-hidden="true"></i></div> */}
             </div>
         )
     }
