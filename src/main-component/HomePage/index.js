@@ -8,7 +8,9 @@ import Newsletter from '../../components/Newsletter'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import abimg from '../../images/Volunteers.jpg'
-import hero1 from '../../images/slider/slide-1.jpg'
+// import hero1 from '../../images/slider/slide-1.jpg'
+import hero1 from '../../images/slider/background2.png'
+
 
 
 

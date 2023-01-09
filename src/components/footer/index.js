@@ -20,20 +20,20 @@ const Footer = (props) => {
         <div className="tp-upper-footer">
           <div className="container">
             <div className="row">
-              <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
+              <div className="col col-lg-4 col-md-6 col-sm-12 col-12">
                 <div className="widget about-widget">
                   <div className="logo widget-title">
                     <img src={Logo} alt="" />
                   </div>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Autem rem tempore vel!
-                  </p>
+                  <p>Find us on social media:</p>
                   <ul>
                     <li>
                       <div className="parallax-wrap">
                         <div className="parallax-element">
-                          <a href="https://www.facebook.com/stellarsoundpodcast/">
+                          <a
+                            href="https://www.facebook.com/stellarsoundpodcast/"
+                            target="_blank"
+                          >
                             <i className="ti-facebook"></i>
                           </a>
                         </div>
@@ -42,7 +42,10 @@ const Footer = (props) => {
                     <li>
                       <div className="parallax-wrap">
                         <div className="parallax-element">
-                          <a href="https://www.instagram.com/stellarsoundpodcast/">
+                          <a
+                            href="https://www.instagram.com/stellarsoundpodcast/"
+                            target="_blank"
+                          >
                             <i className="ti-instagram"></i>
                           </a>
                         </div>
@@ -51,7 +54,10 @@ const Footer = (props) => {
                     <li>
                       <div className="parallax-wrap">
                         <div className="parallax-element">
-                          <a href="https://twitter.com/SoundStellar">
+                          <a
+                            href="https://twitter.com/SoundStellar"
+                            target="_blank"
+                          >
                             <i className="ti-twitter"></i>
                           </a>
                         </div>
@@ -60,7 +66,10 @@ const Footer = (props) => {
                     <li>
                       <div className="parallax-wrap">
                         <div className="parallax-element">
-                          <a href="https://www.linkedin.com/company/72044553/">
+                          <a
+                            href="https://www.linkedin.com/company/72044553/"
+                            target="_blank"
+                          >
                             <i className="ti-linkedin"></i>
                           </a>
                         </div>
@@ -69,7 +78,7 @@ const Footer = (props) => {
                   </ul>
                 </div>
               </div>
-              <div className="col col-lg-2 col-md-6 col-sm-12 col-12">
+              <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                 <div className="widget link-widget">
                   <div className="widget-title">
                     <h3>Useful Links</h3>
@@ -98,12 +107,11 @@ const Footer = (props) => {
                   </ul>
                 </div>
               </div>
-              <div className="col col-lg-3 offset-lg-1 col-md-6 col-sm-12 col-12">
+              <div className="col col-lg-4 offset-lg-1 col-md-6 col-sm-12 col-12">
                 <div className="widget market-widget tp-service-link-widget">
                   <div className="widget-title">
                     <h3>Contact </h3>
                   </div>
-                  <p>Lorem ipsum dolor amet opet den-bumb</p>
                   <div className="contact-ft">
                     <ul>
                       <li>
@@ -111,7 +119,8 @@ const Footer = (props) => {
                         Netherlands
                       </li>
                       <li>
-                        <i className="fi flaticon-call"></i>+31684359770
+                        <i className="fi flaticon-envelope"></i>
+                        info@stellarsoundfoundation.com
                       </li>
                       <li>
                         <i className="fi flaticon-envelope"></i>
@@ -121,7 +130,7 @@ const Footer = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
+              {/* <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                 <div className="widget instagram">
                   <div className="widget-title">
                     <h3>Instagram</h3>
@@ -159,7 +168,7 @@ const Footer = (props) => {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
