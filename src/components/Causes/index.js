@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import causesimg from "../../images/cause/img-1.png";
-import causesimg2 from "../../images/cause/img-2.jpg";
-import { SingleCause } from './SingleCause'
+import { SSPCause } from "./SSP/SSPCause";
+import { SSMCause } from "./SSM/SSMCause";
+import { JanasCause } from "./JanasCause/JanasCause";
+import { EduSeries } from "./EduSeries/EduSeries";
 import "./style.css";
 
 const Causes = (props) => {
@@ -12,15 +12,16 @@ const Causes = (props) => {
         <div className="col-lg-6 offset-lg-3">
           <div className="section-title text-center">
             <div className="thumb-text">
-              <span>CAUSES</span>
+              <span>PROJECTS</span>
             </div>
             <h2>Stellar Sound Foundation Projects</h2>
           </div>
         </div>
         <div className="row">
-          <SingleCause />
-          <SingleCause />
-          <SingleCause />
+          <SSPCause />
+          <SSMCause />
+          <JanasCause />
+          <EduSeries />
         </div>
       </div>
     </div>

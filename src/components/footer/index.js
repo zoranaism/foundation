@@ -85,9 +85,12 @@ const Footer = (props) => {
                   </div>
                   <ul>
                     <li>
-                      <Link onClick={ClickHandler} to="/volunteer">
+                      <a
+                        href="https://www.stellarsoundpodcast.com/become-a-volunteer"
+                        target="_blank"
+                      >
                         Become a volunteer
-                      </Link>
+                      </a>
                     </li>
                     <li>
                       <Link onClick={ClickHandler} to="/donate">
@@ -95,14 +98,9 @@ const Footer = (props) => {
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} to="/contact">
-                        Contact
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} to="/gallery">
-                        Images
-                      </Link>
+                      <a href="https://discord.gg/k6mE5dk2Gt" target="_blank">
+                        Join Discord server
+                      </a>
                     </li>
                   </ul>
                 </div>
