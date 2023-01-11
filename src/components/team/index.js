@@ -1,9 +1,9 @@
 import React from 'react'
 import './style.css'
 import {Link} from 'react-router-dom'
-import tm1 from '../../images/team/team-1.jpg'
-import tm2 from '../../images/team/team-2.jpg'
-import tm3 from '../../images/team/team-3.jpg'
+// import tm1 from '../../images/team/team-1.jpg'
+// import tm2 from '../../images/team/team-2.jpg'
+// import tm3 from '../../images/team/team-3.jpg'
 
 const TeamSection = (props) => {
 
@@ -25,7 +25,7 @@ const TeamSection = (props) => {
                 <div className="row">
                     <div className="col col-xs-12">
                         <div className="team-grids clearfix">
-                            <div className="grid">
+                            {/* <div className="grid">
                                 <div className="img-holder">
                                     <img src={tm1} alt="" />
                                 </div>
@@ -51,7 +51,7 @@ const TeamSection = (props) => {
                                     <h3><Link onClick={ClickHandler} to="/volunteer">Katarina Krstic</Link></h3>
                                     <p>Human Resources</p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

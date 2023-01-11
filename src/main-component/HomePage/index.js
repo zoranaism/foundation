@@ -9,7 +9,7 @@ import Footer from "../../components/footer";
 import Scrollbar from "../../components/scrollbar";
 // import abimg from "../../images/Volunteers.jpg";
 import hero1 from "../../images/slider/background2.png";
-import abimg from "../../images/about/team1.jpg";
+import abimg from "../../images/about/team3.jpg";
 
 const HomePage = () => {
   return (
